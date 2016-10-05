@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxwindows.MainControlsController">
+   <bottom>
+      <ToolBar fx:id="toolBar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="1.0" minWidth="1.0" BorderPane.alignment="CENTER">
+         <items>
+            <Button fx:id="filesButton" mnemonicParsing="false" text="Open" textFill="#f5f5f5" />
+            <Button fx:id="firstButton" mnemonicParsing="false" />
+            <Button fx:id="backButton" mnemonicParsing="false" />
+            <Button fx:id="playButton" mnemonicParsing="false" />
+            <Button fx:id="pauseButton" mnemonicParsing="false" />
+            <Button fx:id="forwardButton" mnemonicParsing="false" />
+            <Button fx:id="lastButton" mnemonicParsing="false" />
+            <Button fx:id="reloadButton" mnemonicParsing="false" />
+            <Button fx:id="fullScreenButton" mnemonicParsing="false" />
+            <Pane fx:id="spacePane1" HBox.hgrow="ALWAYS" />
+            <Label text="Time:" textFill="#d7cece" />
+            <Label fx:id="time" contentDisplay="CENTER" text="Time" wrapText="true" />
+            <Pane fx:id="spacePane" HBox.hgrow="ALWAYS" />
+            <Label />
+            <Slider fx:id="volumeSlider" showTickMarks="true" value="50.0" />
+         </items>
+      </ToolBar>
+   </bottom>
+</BorderPane>

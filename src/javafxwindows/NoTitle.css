@@ -1,0 +1,30 @@
+/*.ui-dialog-title {
+    display:none;
+}*/
+
+/*.ui-dialog-titlebar {
+    background:transparent;
+    border:none;
+}*/
+
+/*.custom-window-titlebar {
+    -fx-font-size: 0px;
+    }*/
+
+.window-titlebar {
+/*    -fx-display-caret: false;*/
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-size: 15px;
+    -fx-fill: transparent;
+    -fx-alignment: center;
+}
+
+.window {
+/*    -fx-display-caret: false;*/
+    -fx-background-color: transparent;
+    -fx-border-color: red;
+/*    -fx-font-size: 10px;
+    -fx-fill: transparent;
+    -fx-alignment: center;*/
+}

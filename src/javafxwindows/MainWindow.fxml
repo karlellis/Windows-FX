@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxwindows.MainWindowController">
+   <children>
+      <BorderPane fx:id="masterPane" layoutX="29.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <ToolBar minHeight="-Infinity" prefHeight="35.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <items>
+                <Button fx:id="videoButton" mnemonicParsing="false" text="Video" />
+                  <Button fx:id="imageButton" mnemonicParsing="false" text="Image" />
+                  <Button fx:id="snapButton" mnemonicParsing="false" text="SnapShot" />
+                  <ToggleButton fx:id="captureToggle" mnemonicParsing="false" text="Capture" />
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Button fx:id="closeButton" mnemonicParsing="false" text="Close" />
+              </items>
+            </ToolBar>
+         </top>
+         <center>
+            <AnchorPane fx:id="centerPane" style="-fx-background-color: black;" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
